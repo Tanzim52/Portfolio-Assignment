@@ -3,6 +3,66 @@
 .azeret-mono-normal {
   font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
+  
+}
+/* nav style */
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 38px 150px;
+}
+.nav-name{
+    font-size: 28px;
+    font-weight: bolder;
+    color:#0D1321 ;
+}
+.download-resume-btn{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 17px 24px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: #0D1321;
+}
+/* shared styles */
+    
+
+.background-image{
+    background-image: url('../styles/assets/Hero-bg.png');
+    /* background-repeat:no-repeat; */
+    /* width: 100%; */
+
+}
+/* banner styles */
+.banner{
+    text-align: center;
+}
+.banner-image{
+    padding: 26px 378.86px;
+}
+.banner-description{
+    padding: 32px 221px;
+}
+.banner-description-title{
+    font-size: 48px;
+    font-weight: 900;
+    word-wrap:normal;
+    color: #0D1321;
+}
+.connecting-button{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 17px 24px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: #0D1321;
+   
+}
+.contact-button{
+    padding: 32px 377px 45px 377px;
 }
