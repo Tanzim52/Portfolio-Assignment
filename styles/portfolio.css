@@ -160,3 +160,16 @@
 .learn-language{
     color:#0D1321;
 }
+.next-container{
+    display: flex;
+    border-radius: 10px;
+    background-color: cornsilk;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    margin-bottom: 15px;
+}
+.nxt-img{
+    padding :25.5px 24px 25.5px 24px;
+}
+.next-container>div{
+    padding:25.5px 40px 24px 25.5px;
+}
