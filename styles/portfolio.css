@@ -173,3 +173,71 @@
 .next-container>div{
     padding:25.5px 40px 24px 25.5px;
 }
+/* support section */
+.support{
+    border-radius: 5px;
+    background-image: url('../styles/assets/handshake.jpg');
+
+    background-repeat: repeat;
+    background-position: center;
+    text-align: center;
+    margin: 49px 170px 180px 170px;
+    padding:64px 48px;
+    border-radius: 5px;
+    
+    
+}
+
+.support-title{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #FFFFFF;
+}
+.support-subtitle{
+   color:  rgba(255, 255, 255, 1);
+}
+.support textarea{
+    color:#757575 ;
+    background-color:rgba(255, 255, 255, 1) ;
+    border-radius: 5px;
+    display: block;
+    width: 30%;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-bottom:24px ;
+    border: none;
+}
+.support-input{
+    display: flex;
+    align-items: center;
+     justify-content:center ;
+     /* display: block; */
+}
+.submit{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 20px;
+    margin-bottom:24px ;
+    border: none;
+    border-radius: 5px;
+    /* margin-top: 12px; */
+}
+
+.foot-des{
+    display: flex;
+    justify-content:space-between ;
+    margin: 38.5px 150px;
+}
+.foot-info{
+    font-size: 20px;
+    font-weight: 600;
+}
+.contact-button a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.learn a{
+    text-decoration: none;
+    color:#757575;
+}
